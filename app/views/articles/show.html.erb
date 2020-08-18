@@ -1,0 +1,8 @@
+  
+<div class="container">
+<h2><%= @article.title %></h2>
+<p></p>
+<button class="btn btn-warning"><%= link_to "Edit article", edit_article_path(@article.id)  %></button>
+<p></p>
+<p><%= @article.content %></p>
+<div class="delete"><%= link_to "Back", articles_path  %> </div>
